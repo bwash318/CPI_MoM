@@ -1,0 +1,14 @@
+[project]
+name = "cpi-mom"
+version = "0.1.0"
+description = "Research pipeline for short-term Core CPI MoM prediction market event studies."
+requires-python = ">=3.10"
+dependencies = [
+    "psycopg[binary]>=3.2",
+    "python-dotenv>=1.0",
+    "requests>=2.32",
+]
+
+[tool.ruff]
+line-length = 100
+
