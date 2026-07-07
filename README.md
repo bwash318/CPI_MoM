@@ -195,7 +195,13 @@ Output:
 data/polymarket_cpi_quote_snapshots.csv
 ```
 
-Current note: the strict CPI MoM filter found no active Polymarket matches on the first test run, so the output file may contain only headers until a matching market appears.
+Known event slugs can be configured with `POLYMARKET_EVENT_SLUGS`. The default includes:
+
+```text
+core-cpi-mom-july-2026-20260705181328287
+```
+
+The collector combines known slugs with discovery, then keeps the next two open CPI MoM events by end time.
 
 ### Task 5: Cross-Exchange Mesh
 

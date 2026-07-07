@@ -73,6 +73,12 @@ def parse_args() -> argparse.Namespace:
         action="append",
         help="Known Polymarket event slug to scrape. Can be passed multiple times.",
     )
+    parser.add_argument(
+        "--event-count",
+        type=int,
+        default=2,
+        help="Number of upcoming CPI MoM events to keep after discovery.",
+    )
     return parser.parse_args()
 
 
@@ -82,7 +88,6 @@ def collect_once(args: argparse.Namespace) -> tuple[int, int]:
     client = GammaClient()
 
     matched_events = []
-    rows = []
     seen_event_ids = set()
 
     known_slugs = list(settings.polymarket_event_slugs)
@@ -98,8 +103,6 @@ def collect_once(args: argparse.Namespace) -> tuple[int, int]:
         if event.get("closed") is True:
             continue
         matched_events.append(event)
-        for contract in normalize_event_contracts(event):
-            rows.append(contract_to_row(contract, scrape_time_utc=scrape_time))
 
     for event in client.iter_active_events(limit=args.limit, max_pages=args.max_pages):
         event_id = str(event.get("id") or event.get("slug") or "")
@@ -109,6 +112,10 @@ def collect_once(args: argparse.Namespace) -> tuple[int, int]:
             continue
         seen_event_ids.add(event_id)
         matched_events.append(event)
+
+    selected_events = select_next_events(matched_events, event_count=args.event_count)
+    rows = []
+    for event in selected_events:
         for contract in normalize_event_contracts(event):
             rows.append(contract_to_row(contract, scrape_time_utc=scrape_time))
 
@@ -121,7 +128,44 @@ def collect_once(args: argparse.Namespace) -> tuple[int, int]:
         )
     )
     append_rows(Path(args.output), rows)
-    return len(rows), len(matched_events)
+    return len(rows), len(selected_events)
+
+
+def select_next_events(events: list[dict], *, event_count: int) -> list[dict]:
+    now = datetime.now(timezone.utc)
+    open_events = []
+    for event in events:
+        if event.get("closed") is True:
+            continue
+        end_time = parse_utc(event.get("endDate"))
+        if end_time is None:
+            event_end_times = [
+                parse_utc(market.get("endDate"))
+                for market in event.get("markets") or []
+                if market.get("closed") is not True
+            ]
+            event_end_times = [value for value in event_end_times if value is not None]
+            end_time = min(event_end_times) if event_end_times else None
+        if end_time is None or end_time < now:
+            continue
+        open_events.append((end_time, event))
+
+    return [event for _, event in sorted(open_events, key=lambda item: item[0])[:event_count]]
+
+
+def parse_utc(value: object) -> datetime | None:
+    if not value:
+        return None
+    text = str(value)
+    if text.endswith("Z"):
+        text = f"{text[:-1]}+00:00"
+    try:
+        parsed = datetime.fromisoformat(text)
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
 
 
 def contract_to_row(contract, *, scrape_time_utc: str) -> dict[str, object]:
