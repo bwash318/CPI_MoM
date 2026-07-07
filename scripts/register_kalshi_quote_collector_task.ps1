@@ -17,6 +17,6 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 Write-Host "Registered and started scheduled task: $TaskName"
-Write-Host "Collector interval: 30 seconds"
+Write-Host "Collector interval: 60 seconds"
 Write-Host "Output CSV: $(Join-Path $RepoRoot 'data\kalshi_core_cpi_quote_snapshots.csv')"
 Write-Host "Log file: $(Join-Path $RepoRoot 'logs\kalshi_core_cpi_quote_collector.log')"

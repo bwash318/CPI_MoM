@@ -40,10 +40,10 @@ Run one snapshot:
 python -m tasks.task2_kalshi_quote_snapshots --once
 ```
 
-Run continuously every 30 seconds:
+Run continuously every 60 seconds:
 
 ```powershell
-python -m tasks.task2_kalshi_quote_snapshots --interval-seconds 30
+python -m tasks.task2_kalshi_quote_snapshots --interval-seconds 60
 ```
 
 Output:
@@ -58,7 +58,7 @@ Register and start the local Windows scheduled collector:
 .\scripts\register_kalshi_quote_collector_task.ps1
 ```
 
-The scheduled task starts the collector at logon. The collector itself runs continuously and appends a fresh snapshot every 30 seconds.
+The scheduled task starts the collector at logon. The collector itself runs continuously and appends a fresh snapshot every 60 seconds.
 
 If Task Scheduler is unavailable, start the collector as a background process for the current Windows session:
 
@@ -72,7 +72,132 @@ Stop the background collector:
 .\scripts\stop_kalshi_quote_collector_background.ps1
 ```
 
+Start Kalshi, predictor, and Polymarket collectors in parallel:
+
+```powershell
+.\scripts\start_all_collectors_background.ps1
+```
+
+Stop all collectors:
+
+```powershell
+.\scripts\stop_all_collectors_background.ps1
+```
+
 ### Task 3: Cross-Exchange Mesh
+
+### Task 3: Predictor Collection
+
+Collect official/public predictor snapshots and append only rows whose value changed since the last scrape.
+
+Current source:
+
+```text
+Cleveland Fed Inflation Nowcasting
+FRED daily market context series
+```
+
+For Cleveland Fed nowcasts, we collect only:
+
+```text
+Inflation, month-over-month percent change
+```
+
+The year-over-year and quarterly annualized Cleveland Fed tables are intentionally ignored for Phase 1 because the traded Kalshi market is Core CPI month-over-month.
+
+Current FRED series:
+
+```text
+DGS2: 2-year Treasury yield
+DGS10: 10-year Treasury yield
+T5YIE: 5-year breakeven inflation
+T10YIE: 10-year breakeven inflation
+T5YIFR: 5-year, 5-year forward inflation expectation rate
+DCOILWTICO: WTI crude oil
+DTWEXBGS: broad US dollar index
+SP500: S&P 500 index
+ICSA: initial jobless claims
+PAYEMS: nonfarm payrolls
+UNRATE: unemployment rate
+CES0500000003: average hourly earnings, total private
+PPIACO: producer price index, all commodities
+WPSFD4131: producer price index, final demand less foods and energy
+RSAFS: advance retail and food services sales
+```
+
+Run one scrape:
+
+```powershell
+python -m tasks.task3_predictor_snapshots --once
+```
+
+Run continuously every 60 seconds, aligned to the top of each minute:
+
+```powershell
+python -m tasks.task3_predictor_snapshots --interval-seconds 60
+```
+
+Output:
+
+```text
+data/predictor_snapshots.csv
+```
+
+Change-detection state:
+
+```text
+data/predictor_latest_hashes.json
+```
+
+Predictor output fields:
+
+```text
+scrape_time_utc
+source
+predictor_family
+frequency
+period
+measure
+value
+source_updated
+source_url
+```
+
+For Cleveland Fed monthly MoM nowcasts, change detection is performed at the full report-row level. If any of `cpi`, `core_cpi`, `pce`, `core_pce`, or `source_updated` changes for a period, all four measures for that period are appended with the earliest scrape time at which the new report row was observed.
+
+Start in the background:
+
+```powershell
+.\scripts\start_predictor_collector_background.ps1
+```
+
+Stop the background collector:
+
+```powershell
+.\scripts\stop_predictor_collector_background.ps1
+```
+
+### Task 4: Cross-Exchange Mesh
+
+### Task 4: Polymarket CPI Quote Collection
+
+Discover active Polymarket CPI/Core CPI month-over-month markets and append quote snapshots when matching markets exist.
+
+Run one snapshot:
+
+```powershell
+python -m tasks.task4_polymarket_cpi_quote_snapshots --once
+```
+
+Output:
+
+```text
+data/polymarket_cpi_quote_snapshots.csv
+```
+
+Current note: the strict CPI MoM filter found no active Polymarket matches on the first test run, so the output file may contain only headers until a matching market appears.
+
+### Task 5: Cross-Exchange Mesh
 
 After Polymarket exists as its own native pipeline, create a mesh dataframe/table that maps economically equivalent or overlapping contracts across exchanges.
 

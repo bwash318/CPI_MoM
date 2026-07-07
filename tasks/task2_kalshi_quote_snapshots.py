@@ -28,8 +28,14 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--interval-seconds",
         type=float,
-        default=30,
+        default=60,
         help="Seconds between snapshots when running continuously.",
+    )
+    parser.add_argument(
+        "--align-to-minute",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Align continuous collection to the top of each minute.",
     )
     return parser.parse_args()
 
@@ -118,6 +124,11 @@ def main() -> None:
     args = parse_args()
 
     while True:
+        if args.align_to_minute and not args.once:
+            sleep_seconds = seconds_until_next_minute()
+            if sleep_seconds > 0:
+                sleep(sleep_seconds)
+
         row_count, event_tickers = collect_once(args)
         print(
             f"{datetime.now(timezone.utc).isoformat()} appended {row_count} rows "
@@ -125,9 +136,17 @@ def main() -> None:
         )
         if args.once:
             return
+
+        if args.align_to_minute:
+            continue
+
         sleep(args.interval_seconds)
+
+
+def seconds_until_next_minute() -> float:
+    now = datetime.now(timezone.utc)
+    return 60.05 - now.second - (now.microsecond / 1_000_000)
 
 
 if __name__ == "__main__":
     main()
-

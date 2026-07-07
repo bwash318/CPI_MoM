@@ -13,6 +13,7 @@ except ImportError:  # pragma: no cover
 class Settings:
     database_url: str | None
     kalshi_api_base: str
+    polymarket_event_slugs: tuple[str, ...]
 
 
 def load_settings() -> Settings:
@@ -25,5 +26,12 @@ def load_settings() -> Settings:
             "KALSHI_API_BASE",
             "https://api.elections.kalshi.com/trade-api/v2",
         ).rstrip("/"),
+        polymarket_event_slugs=tuple(
+            slug.strip()
+            for slug in os.getenv(
+                "POLYMARKET_EVENT_SLUGS",
+                "core-cpi-mom-july-2026-20260705181328287",
+            ).split(",")
+            if slug.strip()
+        ),
     )
-
