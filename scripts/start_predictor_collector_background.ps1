@@ -16,4 +16,3 @@ Write-Host "Collector interval: 60 seconds, aligned to top of minute"
 Write-Host "Output CSV: $(Join-Path $RepoRoot 'data\predictor_snapshots.csv')"
 Write-Host "State file: $(Join-Path $RepoRoot 'data\predictor_latest_hashes.json')"
 Write-Host "Log file: $(Join-Path $RepoRoot 'logs\predictor_collector.log')"
-

@@ -13,5 +13,5 @@ $Process = Start-Process `
 Write-Host "Started Kalshi quote collector background process."
 Write-Host "Process ID: $($Process.Id)"
 Write-Host "Collector interval: 60 seconds"
-Write-Host "Output CSV: $(Join-Path $RepoRoot 'data\kalshi_core_cpi_quote_snapshots.csv')"
+Write-Host "Output Parquet dir: $(Join-Path $RepoRoot 'data\kalshi_core_cpi_quote_snapshots')"
 Write-Host "Log file: $(Join-Path $RepoRoot 'logs\kalshi_core_cpi_quote_collector.log')"

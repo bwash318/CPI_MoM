@@ -27,3 +27,4 @@ scrape_time_utc,source,predictor_family,frequency,period,measure,value,source_up
 2026-07-07T21:05:00.049761+00:00,fred,market_context,daily,2026-07-07,five_year_breakeven_inflation,2.28,2026-07-07,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
 2026-07-07T21:05:00.049761+00:00,fred,market_context,daily,2026-07-07,ten_year_breakeven_inflation,2.25,2026-07-07,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
 2026-07-07T21:07:00.050009+00:00,fred,market_context,daily,2026-07-07,five_year_five_year_forward_inflation_expectation,2.22,2026-07-07,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-08T00:07:00.049272+00:00,fred,market_context,daily,2026-07-07,sp500_index,7503.85,2026-07-07,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500

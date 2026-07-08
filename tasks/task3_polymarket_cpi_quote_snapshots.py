@@ -1,42 +1,13 @@
 from __future__ import annotations
 
 import argparse
-import csv
 import re
 from datetime import datetime, timezone
-from pathlib import Path
 from time import sleep
 
 from cpi_mom.config import load_settings
+from cpi_mom.parquet_io import append_partitioned_parquet
 from cpi_mom.polymarket import GammaClient, event_matches_cpi_mom, normalize_event_contracts
-
-
-FIELDNAMES = [
-    "scrape_time_utc",
-    "exchange",
-    "event_id",
-    "event_slug",
-    "event_title",
-    "market_id",
-    "market_slug",
-    "question",
-    "outcome_bucket",
-    "threshold_value",
-    "outcome",
-    "token_id",
-    "outcome_price_dollars",
-    "best_bid_dollars",
-    "best_ask_dollars",
-    "last_trade_price_dollars",
-    "volume",
-    "volume_24hr",
-    "liquidity",
-    "open_interest",
-    "active",
-    "closed",
-    "end_time_utc",
-    "source_url",
-]
 
 
 def parse_args() -> argparse.Namespace:
@@ -45,8 +16,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--output",
-        default="data/polymarket_cpi_quote_snapshots.csv",
-        help="Append-only CSV output path.",
+        default="data/polymarket_cpi_quote_snapshots",
+        help="Directory for daily partitioned Parquet output.",
     )
     parser.add_argument("--once", action="store_true", help="Collect once and exit.")
     parser.add_argument(
@@ -127,7 +98,7 @@ def collect_once(args: argparse.Namespace) -> tuple[int, int]:
             str(row["outcome"] or ""),
         )
     )
-    append_rows(Path(args.output), rows)
+    append_partitioned_parquet(rows, output_dir=args.output)
     return len(rows), len(selected_events)
 
 
@@ -223,17 +194,6 @@ def parse_threshold_value(question: str | None) -> float | None:
         decimal = int(match.group(2)) / (10 ** len(match.group(2)))
         return sign * (whole + decimal)
     return None
-
-
-def append_rows(path: Path, rows: list[dict[str, object]]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    file_exists = path.exists() and path.stat().st_size > 0
-
-    with path.open("a", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=FIELDNAMES)
-        if not file_exists:
-            writer.writeheader()
-        writer.writerows(rows)
 
 
 def seconds_until_next_minute() -> float:

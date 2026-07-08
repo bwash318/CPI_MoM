@@ -20,5 +20,6 @@
   "fred|market_context|daily|2026-07-06|two_year_treasury_yield": "19c9149819a44dbaae3560098f2c820866ccec56a1448abfdf733d0cc2556c7e",
   "fred|market_context|daily|2026-07-07|five_year_breakeven_inflation": "34e83a3e3f83548a745d295a6e7bcf0cb49edccc6c9945124d0cb1f9f9067f58",
   "fred|market_context|daily|2026-07-07|five_year_five_year_forward_inflation_expectation": "d1a654068cfb4943c8e5d1d60030ab3d099f72e4bd112db50f79ee124c821006",
+  "fred|market_context|daily|2026-07-07|sp500_index": "3e37e2137dc2cd44d4cc32c9674ba91c0057e47162d8ccd4cc504fb397b77f8b",
   "fred|market_context|daily|2026-07-07|ten_year_breakeven_inflation": "a1b318a01436bd36bd343eda38a2154aa4ed0b804d5f387389ca9f4f2462547a"
 }

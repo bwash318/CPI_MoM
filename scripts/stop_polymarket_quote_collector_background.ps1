@@ -2,7 +2,7 @@ $ErrorActionPreference = "Stop"
 
 $Processes = Get-CimInstance Win32_Process |
     Where-Object {
-        $_.CommandLine -like "*tasks.task4_polymarket_cpi_quote_snapshots*" -or
+        $_.CommandLine -like "*tasks.task3_polymarket_cpi_quote_snapshots*" -or
         $_.CommandLine -like "*run_polymarket_quote_collector.ps1*"
     }
 
@@ -14,4 +14,3 @@ foreach ($Process in $Processes) {
 if (-not $Processes) {
     Write-Host "No Polymarket quote collector background process found."
 }
-

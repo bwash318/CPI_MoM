@@ -1,14 +1,13 @@
 from __future__ import annotations
 
 import argparse
-import csv
 from datetime import datetime, timezone
-from pathlib import Path
 from time import sleep
 
 from cpi_mom.config import load_settings
 from cpi_mom.kalshi import KalshiClient, is_core_cpi_candidate, normalize_market
-from tasks.task1_kalshi_market_discovery import market_to_row
+from cpi_mom.kalshi_rows import market_to_row
+from cpi_mom.parquet_io import append_partitioned_parquet
 
 
 def parse_args() -> argparse.Namespace:
@@ -21,8 +20,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--event-count", type=int, default=2, help="Number of upcoming event tickers.")
     parser.add_argument(
         "--output",
-        default="data/kalshi_core_cpi_quote_snapshots.csv",
-        help="Append-only CSV output path.",
+        default="data/kalshi_core_cpi_quote_snapshots",
+        help="Directory for daily partitioned Parquet output.",
     )
     parser.add_argument("--once", action="store_true", help="Collect one snapshot and exit.")
     parser.add_argument(
@@ -73,18 +72,6 @@ def select_next_event_markets(matches, *, now_utc: datetime, event_count: int):
     return [match for match in matches if match.event_ticker in selected_events]
 
 
-def append_rows(rows: list[dict[str, object]], *, output_path: str) -> None:
-    path = Path(output_path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-
-    file_exists = path.exists() and path.stat().st_size > 0
-    with path.open("a", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()) if rows else [])
-        if not file_exists:
-            writer.writeheader()
-        writer.writerows(rows)
-
-
 def collect_once(args: argparse.Namespace) -> tuple[int, list[str]]:
     settings = load_settings()
     scrape_time = datetime.now(timezone.utc)
@@ -105,7 +92,7 @@ def collect_once(args: argparse.Namespace) -> tuple[int, list[str]]:
         event_count=args.event_count,
     )
 
-    rows = [market_to_row(match, discovered_at_utc=scrape_time) for match in selected]
+    rows = [market_to_row(match, scrape_time_utc=scrape_time) for match in selected]
     rows.sort(
         key=lambda row: (
             str(row.get("scrape_time_utc") or ""),
@@ -114,7 +101,7 @@ def collect_once(args: argparse.Namespace) -> tuple[int, list[str]]:
             float(row.get("floor_strike") or 0),
         )
     )
-    append_rows(rows, output_path=args.output)
+    append_partitioned_parquet(rows, output_dir=args.output)
 
     event_tickers = sorted({str(row["event_ticker"]) for row in rows})
     return len(rows), event_tickers
