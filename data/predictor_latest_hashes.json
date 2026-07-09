@@ -1,6 +1,6 @@
 {
-  "cleveland_fed|inflation_nowcast|monthly_mom|July 2026": "1aac9885b2d5c1af4ab0638d9b69c1f0792189af01c2c73d5abb29107d80222e",
-  "cleveland_fed|inflation_nowcast|monthly_mom|June 2026": "77bc581cc38408357b0b04a9a1699a91c7f75f120154440e43c0cd885a7fce00",
+  "cleveland_fed|inflation_nowcast|monthly_mom|July 2026": "1240f6020a721e27de2288bc947b3af0d5f83c438c12cab03e898b2a53da751c",
+  "cleveland_fed|inflation_nowcast|monthly_mom|June 2026": "4ee4996116c2ca111d6007800d0b2af9a85ec3ca891a98fa2e2c54ee0d423454",
   "fred|market_context|daily|2026-05-01|producer_price_index_all_commodities": "700a7fdef7b07752f7af190cfadc1905bfb022a0c167c8c7d38bd34fffc93ea5",
   "fred|market_context|daily|2026-05-01|producer_price_index_final_demand_less_foods_energy": "72da925b603483d20f8b4c85a6b0f0d6360b1bba825b40b95c893f235756b0b3",
   "fred|market_context|daily|2026-05-01|retail_and_food_services_sales": "56ed4d9615cd4a8ecc79440a66106c6f3e86dff2790a3888e980db5270f7d32f",
@@ -12,14 +12,22 @@
   "fred|market_context|daily|2026-07-02|broad_us_dollar_index": "f3d60248ae3f1aa6b30727b0af6b406041fb0babe69e5e893a92fa165305beee",
   "fred|market_context|daily|2026-07-02|ten_year_treasury_yield": "d965e5c5ae792da608d8474bf23582b23eb8877b33a30b391935a8679e0c1c89",
   "fred|market_context|daily|2026-07-02|two_year_treasury_yield": "ebd205bfbf10bcac7810ab70b7a185194c60fd316adf49143812c22fc497bfa7",
+  "fred|market_context|daily|2026-07-04|initial_jobless_claims": "93c0458105072c6960a37100d5b6fbb5efbfc12cb95ec6bbe4eccaa315176bd8",
   "fred|market_context|daily|2026-07-06|five_year_breakeven_inflation": "6b5eca4b2d5059bf1f140578a8d359901fa348c23f682a3d7667bf7ff15b64ff",
   "fred|market_context|daily|2026-07-06|five_year_five_year_forward_inflation_expectation": "9576697adf6cc3991bb30d637d36b8e8bea642d5179fa19f9993d6e4aad23512",
   "fred|market_context|daily|2026-07-06|sp500_index": "1c9cc2b93ccee2834a479e2f002c55988baedb84d64a3aa913f4d4b5d4851bb1",
   "fred|market_context|daily|2026-07-06|ten_year_breakeven_inflation": "25d524de9e2b722e67c633fa93de7c77d10c803977f65d140c0f058347eaf381",
   "fred|market_context|daily|2026-07-06|ten_year_treasury_yield": "137d9060ae60b2c8b25ad7feb2c9f78ebfcdd8e370561233d14e6de5f9460dc0",
   "fred|market_context|daily|2026-07-06|two_year_treasury_yield": "19c9149819a44dbaae3560098f2c820866ccec56a1448abfdf733d0cc2556c7e",
+  "fred|market_context|daily|2026-07-06|wti_crude_oil": "469d75539b393945b712de2962511f86c65b2100de7af1aaa7b3f05806e8cc7b",
   "fred|market_context|daily|2026-07-07|five_year_breakeven_inflation": "34e83a3e3f83548a745d295a6e7bcf0cb49edccc6c9945124d0cb1f9f9067f58",
   "fred|market_context|daily|2026-07-07|five_year_five_year_forward_inflation_expectation": "d1a654068cfb4943c8e5d1d60030ab3d099f72e4bd112db50f79ee124c821006",
   "fred|market_context|daily|2026-07-07|sp500_index": "3e37e2137dc2cd44d4cc32c9674ba91c0057e47162d8ccd4cc504fb397b77f8b",
-  "fred|market_context|daily|2026-07-07|ten_year_breakeven_inflation": "a1b318a01436bd36bd343eda38a2154aa4ed0b804d5f387389ca9f4f2462547a"
+  "fred|market_context|daily|2026-07-07|ten_year_breakeven_inflation": "a1b318a01436bd36bd343eda38a2154aa4ed0b804d5f387389ca9f4f2462547a",
+  "fred|market_context|daily|2026-07-07|ten_year_treasury_yield": "a1bf77ad900d653915a7d8ff33c5143e7683963c3b51e9d03293559229ba4bcf",
+  "fred|market_context|daily|2026-07-07|two_year_treasury_yield": "cb540f7b5dcd005384342efa447076231e2d8c02fedb6e32233e3ab258412d6d",
+  "fred|market_context|daily|2026-07-08|five_year_breakeven_inflation": "67c5cac986bf196e7f36f6b73238867f860d221a9114f65f479fab2c36a52238",
+  "fred|market_context|daily|2026-07-08|five_year_five_year_forward_inflation_expectation": "853ce1d5691ee8951fe1a1620b5cfe6b4d7992162264199ded592e8cf62ee5ca",
+  "fred|market_context|daily|2026-07-08|sp500_index": "a1a6a32967b4183196baf226f84bdd3f73ddf83df6968c2097e08694f59251b1",
+  "fred|market_context|daily|2026-07-08|ten_year_breakeven_inflation": "20205f903a72ab0a3e56cd9c43fb36fbda93f06202953f3b03e1b9854ec1f309"
 }
