@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import traceback
 from datetime import datetime, timezone
 from time import sleep
 
@@ -116,11 +117,23 @@ def main() -> None:
             if sleep_seconds > 0:
                 sleep(sleep_seconds)
 
-        row_count, event_tickers = collect_once(args)
-        print(
-            f"{datetime.now(timezone.utc).isoformat()} appended {row_count} rows "
-            f"for {', '.join(event_tickers)}"
-        )
+        try:
+            row_count, event_tickers = collect_once(args)
+            print(
+                f"{datetime.now(timezone.utc).isoformat()} appended {row_count} rows "
+                f"for {', '.join(event_tickers)}",
+                flush=True,
+            )
+        except Exception:
+            print(
+                f"{datetime.now(timezone.utc).isoformat()} collection failed; "
+                "retrying on the next cycle",
+                flush=True,
+            )
+            traceback.print_exc()
+            if args.once:
+                raise
+            continue
         if args.once:
             return
 

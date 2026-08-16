@@ -52,3 +52,303 @@ scrape_time_utc,source,predictor_family,frequency,period,measure,value,source_up
 2026-07-09T14:01:00.049921+00:00,cleveland_fed,inflation_nowcast,monthly_mom,June 2026,core_pce,0.28,2026-07-09,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
 2026-07-09T14:01:00.049921+00:00,cleveland_fed,inflation_nowcast,monthly_mom,June 2026,cpi,-0.06,2026-07-09,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
 2026-07-09T14:01:00.049921+00:00,cleveland_fed,inflation_nowcast,monthly_mom,June 2026,pce,0.1,2026-07-09,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-14T01:22:00.050278+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.23,2026-07-13,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-14T01:22:00.050278+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.28,2026-07-13,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-14T01:22:00.050278+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,-0.0,2026-07-13,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-14T01:22:00.050278+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.13,2026-07-13,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-14T01:22:00.050278+00:00,cleveland_fed,inflation_nowcast,monthly_mom,June 2026,core_cpi,0.23,2026-07-13,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-14T01:22:00.050278+00:00,cleveland_fed,inflation_nowcast,monthly_mom,June 2026,core_pce,0.28,2026-07-13,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-14T01:22:00.050278+00:00,cleveland_fed,inflation_nowcast,monthly_mom,June 2026,cpi,-0.06,2026-07-13,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-14T01:22:00.050278+00:00,cleveland_fed,inflation_nowcast,monthly_mom,June 2026,pce,0.1,2026-07-13,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-14T01:22:00.050278+00:00,fred,market_context,daily,2026-07-10,broad_us_dollar_index,120.5046,2026-07-10,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTWEXBGS
+2026-07-14T01:22:00.050278+00:00,fred,market_context,daily,2026-07-10,ten_year_treasury_yield,4.56,2026-07-10,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-14T01:22:00.050278+00:00,fred,market_context,daily,2026-07-10,two_year_treasury_yield,4.21,2026-07-10,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-14T01:22:00.050278+00:00,fred,market_context,daily,2026-07-13,five_year_breakeven_inflation,2.31,2026-07-13,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-14T01:22:00.050278+00:00,fred,market_context,daily,2026-07-13,five_year_five_year_forward_inflation_expectation,2.21,2026-07-13,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-14T01:22:00.050278+00:00,fred,market_context,daily,2026-07-13,sp500_index,7515.34,2026-07-13,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-07-14T01:22:00.050278+00:00,fred,market_context,daily,2026-07-13,ten_year_breakeven_inflation,2.26,2026-07-13,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-14T14:01:00.049917+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-14,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-14T14:01:00.049917+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-14,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-14T14:01:00.049917+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,-0.04,2026-07-14,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-14T14:01:00.049917+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.11,2026-07-14,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-14T20:21:00.049250+00:00,fred,market_context,daily,2026-07-13,two_year_treasury_yield,4.26,2026-07-13,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-14T20:22:00.050874+00:00,fred,market_context,daily,2026-07-13,ten_year_treasury_yield,4.62,2026-07-13,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-14T21:04:00.050435+00:00,fred,market_context,daily,2026-07-14,five_year_breakeven_inflation,2.28,2026-07-14,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-14T21:07:00.049999+00:00,fred,market_context,daily,2026-07-14,five_year_five_year_forward_inflation_expectation,2.22,2026-07-14,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-14T21:07:00.049999+00:00,fred,market_context,daily,2026-07-14,ten_year_breakeven_inflation,2.25,2026-07-14,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-15T00:08:00.049807+00:00,fred,market_context,daily,2026-07-14,sp500_index,7543.59,2026-07-14,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-07-15T14:01:00.049086+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-15,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-15T14:01:00.049086+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-15,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-15T14:01:00.049086+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,-0.01,2026-07-15,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-15T14:01:00.049086+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.13,2026-07-15,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-17T01:53:00.051022+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-16,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-17T01:53:00.051022+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-16,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-17T01:53:00.051022+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,-0.01,2026-07-16,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-17T01:53:00.051022+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.13,2026-07-16,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-17T01:53:00.051022+00:00,fred,market_context,daily,2026-06-01,producer_price_index_all_commodities,286.827,2026-06-01,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PPIACO
+2026-07-17T01:53:00.051022+00:00,fred,market_context,daily,2026-06-01,producer_price_index_final_demand_less_foods_energy,269.042,2026-06-01,https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPSFD4131
+2026-07-17T01:53:00.051022+00:00,fred,market_context,daily,2026-06-01,retail_and_food_services_sales,768553.0,2026-06-01,https://fred.stlouisfed.org/graph/fredgraph.csv?id=RSAFS
+2026-07-17T01:53:00.051022+00:00,fred,market_context,daily,2026-07-11,initial_jobless_claims,208000.0,2026-07-11,https://fred.stlouisfed.org/graph/fredgraph.csv?id=ICSA
+2026-07-17T01:53:00.051022+00:00,fred,market_context,daily,2026-07-13,wti_crude_oil,79.2,2026-07-13,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILWTICO
+2026-07-17T01:53:00.051022+00:00,fred,market_context,daily,2026-07-15,ten_year_treasury_yield,4.55,2026-07-15,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-17T01:53:00.051022+00:00,fred,market_context,daily,2026-07-15,two_year_treasury_yield,4.13,2026-07-15,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-17T01:53:00.051022+00:00,fred,market_context,daily,2026-07-16,five_year_breakeven_inflation,2.24,2026-07-16,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-17T01:53:00.051022+00:00,fred,market_context,daily,2026-07-16,five_year_five_year_forward_inflation_expectation,2.2,2026-07-16,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-17T01:53:00.051022+00:00,fred,market_context,daily,2026-07-16,sp500_index,7533.77,2026-07-16,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-07-17T01:53:00.051022+00:00,fred,market_context,daily,2026-07-16,ten_year_breakeven_inflation,2.22,2026-07-16,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-18T02:52:00.049405+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-17,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-18T02:52:00.049405+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-17,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-18T02:52:00.049405+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,-0.01,2026-07-17,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-18T02:52:00.049405+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.13,2026-07-17,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-18T02:52:00.049405+00:00,fred,market_context,daily,2026-07-16,ten_year_treasury_yield,4.57,2026-07-16,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-18T02:52:00.049405+00:00,fred,market_context,daily,2026-07-16,two_year_treasury_yield,4.16,2026-07-16,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-18T02:52:00.049405+00:00,fred,market_context,daily,2026-07-17,five_year_breakeven_inflation,2.27,2026-07-17,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-18T02:52:00.049405+00:00,fred,market_context,daily,2026-07-17,five_year_five_year_forward_inflation_expectation,2.21,2026-07-17,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-18T02:52:00.049405+00:00,fred,market_context,daily,2026-07-17,sp500_index,7457.69,2026-07-17,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-07-18T02:52:00.049405+00:00,fred,market_context,daily,2026-07-17,ten_year_breakeven_inflation,2.24,2026-07-17,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-20T14:01:00.049638+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-20,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-20T14:01:00.049638+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-20,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-20T14:01:00.049638+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,-0.01,2026-07-20,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-20T14:01:00.049638+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.13,2026-07-20,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-20T20:21:00.049620+00:00,fred,market_context,daily,2026-07-17,broad_us_dollar_index,120.5315,2026-07-17,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTWEXBGS
+2026-07-20T20:21:00.049620+00:00,fred,market_context,daily,2026-07-17,two_year_treasury_yield,4.18,2026-07-17,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-20T20:22:00.049491+00:00,fred,market_context,daily,2026-07-17,ten_year_treasury_yield,4.55,2026-07-17,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-20T21:05:00.049834+00:00,fred,market_context,daily,2026-07-20,five_year_breakeven_inflation,2.28,2026-07-20,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-20T21:06:00.049737+00:00,fred,market_context,daily,2026-07-20,five_year_five_year_forward_inflation_expectation,2.22,2026-07-20,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-20T21:06:00.049737+00:00,fred,market_context,daily,2026-07-20,ten_year_breakeven_inflation,2.25,2026-07-20,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-21T14:01:00.049870+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-21,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-21T14:01:00.049870+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-21,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-21T14:01:00.049870+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,-0.01,2026-07-21,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-21T14:01:00.049870+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.13,2026-07-21,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-21T15:28:00.049763+00:00,fred,market_context,daily,2026-07-20,sp500_index,7443.28,2026-07-20,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-07-21T20:20:00.047583+00:00,fred,market_context,daily,2026-07-20,two_year_treasury_yield,4.21,2026-07-20,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-21T20:21:00.047776+00:00,fred,market_context,daily,2026-07-20,ten_year_treasury_yield,4.6,2026-07-20,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-21T21:05:00.048828+00:00,fred,market_context,daily,2026-07-21,five_year_five_year_forward_inflation_expectation,2.24,2026-07-21,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-21T21:06:00.049134+00:00,fred,market_context,daily,2026-07-21,five_year_breakeven_inflation,2.28,2026-07-21,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-21T21:08:00.049067+00:00,fred,market_context,daily,2026-07-21,ten_year_breakeven_inflation,2.26,2026-07-21,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-22T00:08:00.049736+00:00,fred,market_context,daily,2026-07-21,sp500_index,7509.2,2026-07-21,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-07-22T14:01:00.049747+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-22,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-22T14:01:00.049747+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-22,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-22T14:01:00.049747+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.04,2026-07-22,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-22T14:01:00.049747+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.16,2026-07-22,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-22T17:21:00.050077+00:00,fred,market_context,daily,2026-07-20,wti_crude_oil,84.38,2026-07-20,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILWTICO
+2026-07-22T20:20:00.049862+00:00,fred,market_context,daily,2026-07-21,ten_year_treasury_yield,4.63,2026-07-21,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-22T20:21:00.050154+00:00,fred,market_context,daily,2026-07-21,two_year_treasury_yield,4.26,2026-07-21,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-22T21:06:00.050469+00:00,fred,market_context,daily,2026-07-22,five_year_breakeven_inflation,2.3,2026-07-22,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-22T21:06:00.050469+00:00,fred,market_context,daily,2026-07-22,five_year_five_year_forward_inflation_expectation,2.26,2026-07-22,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-22T21:07:00.050082+00:00,fred,market_context,daily,2026-07-22,ten_year_breakeven_inflation,2.28,2026-07-22,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-23T00:07:00.049587+00:00,fred,market_context,daily,2026-07-22,sp500_index,7498.96,2026-07-22,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-07-23T12:35:00.049491+00:00,fred,market_context,daily,2026-07-18,initial_jobless_claims,187000.0,2026-07-18,https://fred.stlouisfed.org/graph/fredgraph.csv?id=ICSA
+2026-07-23T14:01:00.049651+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-23,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-23T14:01:00.049651+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-23,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-23T14:01:00.049651+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.04,2026-07-23,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-23T14:01:00.049651+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.16,2026-07-23,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-23T20:18:00.049752+00:00,fred,market_context,daily,2026-07-22,ten_year_treasury_yield,4.67,2026-07-22,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-23T20:18:00.049752+00:00,fred,market_context,daily,2026-07-22,two_year_treasury_yield,4.31,2026-07-22,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-23T21:06:00.049724+00:00,fred,market_context,daily,2026-07-23,five_year_breakeven_inflation,2.29,2026-07-23,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-23T21:06:00.049724+00:00,fred,market_context,daily,2026-07-23,five_year_five_year_forward_inflation_expectation,2.27,2026-07-23,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-23T21:06:00.049724+00:00,fred,market_context,daily,2026-07-23,ten_year_breakeven_inflation,2.28,2026-07-23,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-24T00:07:00.049953+00:00,fred,market_context,daily,2026-07-23,sp500_index,7408.3,2026-07-23,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-07-24T14:01:00.049741+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-24,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-24T14:01:00.049741+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-24,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-24T14:01:00.049741+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.04,2026-07-24,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-24T14:01:00.049741+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.16,2026-07-24,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-24T20:22:00.049626+00:00,fred,market_context,daily,2026-07-23,ten_year_treasury_yield,4.71,2026-07-23,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-24T20:22:00.049626+00:00,fred,market_context,daily,2026-07-23,two_year_treasury_yield,4.37,2026-07-23,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-24T21:05:00.049399+00:00,fred,market_context,daily,2026-07-24,five_year_five_year_forward_inflation_expectation,2.28,2026-07-24,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-24T21:06:00.049452+00:00,fred,market_context,daily,2026-07-24,five_year_breakeven_inflation,2.24,2026-07-24,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-24T21:06:00.049452+00:00,fred,market_context,daily,2026-07-24,ten_year_breakeven_inflation,2.26,2026-07-24,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-25T00:05:00.049856+00:00,fred,market_context,daily,2026-07-24,sp500_index,7411.98,2026-07-24,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-07-27T14:01:00.049958+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-27,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-27T14:01:00.049958+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-27,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-27T14:01:00.049958+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.04,2026-07-27,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-27T14:01:00.049958+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.16,2026-07-27,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-27T20:18:00.049661+00:00,fred,market_context,daily,2026-07-24,ten_year_treasury_yield,4.69,2026-07-24,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-27T20:20:00.050249+00:00,fred,market_context,daily,2026-07-24,two_year_treasury_yield,4.33,2026-07-24,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-27T20:25:00.049828+00:00,fred,market_context,daily,2026-07-24,broad_us_dollar_index,120.7105,2026-07-24,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTWEXBGS
+2026-07-27T21:06:00.050196+00:00,fred,market_context,daily,2026-07-27,five_year_five_year_forward_inflation_expectation,2.24,2026-07-27,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-27T21:07:00.049747+00:00,fred,market_context,daily,2026-07-27,five_year_breakeven_inflation,2.18,2026-07-27,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-27T21:07:00.049747+00:00,fred,market_context,daily,2026-07-27,ten_year_breakeven_inflation,2.21,2026-07-27,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-28T00:05:00.049675+00:00,fred,market_context,daily,2026-07-27,sp500_index,7413.18,2026-07-27,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-07-28T14:01:00.049539+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-28,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-28T14:01:00.049539+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-28,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-28T14:01:00.049539+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.04,2026-07-28,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-28T14:01:00.049539+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.16,2026-07-28,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-28T20:20:00.049840+00:00,fred,market_context,daily,2026-07-27,ten_year_treasury_yield,4.65,2026-07-27,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-28T20:21:00.050001+00:00,fred,market_context,daily,2026-07-27,two_year_treasury_yield,4.31,2026-07-27,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-28T21:05:00.050035+00:00,fred,market_context,daily,2026-07-28,five_year_breakeven_inflation,2.16,2026-07-28,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-28T21:05:00.050035+00:00,fred,market_context,daily,2026-07-28,five_year_five_year_forward_inflation_expectation,2.24,2026-07-28,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-28T21:09:00.050825+00:00,fred,market_context,daily,2026-07-28,ten_year_breakeven_inflation,2.2,2026-07-28,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-29T00:05:00.049925+00:00,fred,market_context,daily,2026-07-28,sp500_index,7428.78,2026-07-28,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-07-29T14:01:00.051181+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-29,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-29T14:01:00.051181+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-29,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-29T14:01:00.051181+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.09,2026-07-29,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-29T14:01:00.051181+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.18,2026-07-29,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-29T17:21:00.049647+00:00,fred,market_context,daily,2026-07-27,wti_crude_oil,84.25,2026-07-27,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILWTICO
+2026-07-29T20:20:00.049633+00:00,fred,market_context,daily,2026-07-28,two_year_treasury_yield,4.26,2026-07-28,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-29T20:23:00.050097+00:00,fred,market_context,daily,2026-07-28,ten_year_treasury_yield,4.61,2026-07-28,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-29T21:04:00.049958+00:00,fred,market_context,daily,2026-07-29,five_year_breakeven_inflation,2.24,2026-07-29,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-29T21:07:00.049894+00:00,fred,market_context,daily,2026-07-29,five_year_five_year_forward_inflation_expectation,2.28,2026-07-29,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-29T21:07:00.049894+00:00,fred,market_context,daily,2026-07-29,ten_year_breakeven_inflation,2.26,2026-07-29,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-30T00:08:00.049037+00:00,fred,market_context,daily,2026-07-29,sp500_index,7316.15,2026-07-29,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-07-30T12:38:00.049852+00:00,fred,market_context,daily,2026-07-25,initial_jobless_claims,197000.0,2026-07-25,https://fred.stlouisfed.org/graph/fredgraph.csv?id=ICSA
+2026-07-30T14:01:00.049798+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-30,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-30T14:01:00.049798+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-30,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-30T14:01:00.049798+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.09,2026-07-30,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-30T14:01:00.049798+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.19,2026-07-30,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-31T00:44:00.050342+00:00,fred,market_context,daily,2026-07-29,ten_year_treasury_yield,4.67,2026-07-29,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-31T00:44:00.050342+00:00,fred,market_context,daily,2026-07-29,two_year_treasury_yield,4.22,2026-07-29,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-31T00:44:00.050342+00:00,fred,market_context,daily,2026-07-30,five_year_breakeven_inflation,2.24,2026-07-30,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-31T00:44:00.050342+00:00,fred,market_context,daily,2026-07-30,five_year_five_year_forward_inflation_expectation,2.3,2026-07-30,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-07-31T00:44:00.050342+00:00,fred,market_context,daily,2026-07-30,ten_year_breakeven_inflation,2.27,2026-07-30,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-31T14:01:00.050255+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-07-31,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-31T14:01:00.050255+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-07-31,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-31T14:01:00.050255+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.09,2026-07-31,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-31T14:01:00.050255+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.19,2026-07-31,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-07-31T19:43:00.049393+00:00,fred,market_context,daily,2026-07-30,sp500_index,7437.63,2026-07-30,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-07-31T20:20:00.049343+00:00,fred,market_context,daily,2026-07-30,ten_year_treasury_yield,4.68,2026-07-30,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-07-31T20:21:00.049067+00:00,fred,market_context,daily,2026-07-30,two_year_treasury_yield,4.23,2026-07-30,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-07-31T21:07:00.049473+00:00,fred,market_context,daily,2026-07-31,ten_year_breakeven_inflation,2.28,2026-07-31,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-07-31T21:08:00.049625+00:00,fred,market_context,daily,2026-07-31,five_year_breakeven_inflation,2.26,2026-07-31,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-07-31T21:09:00.049761+00:00,fred,market_context,daily,2026-07-31,five_year_five_year_forward_inflation_expectation,2.3,2026-07-31,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-08-01T00:04:00.049459+00:00,fred,market_context,daily,2026-07-31,sp500_index,7489.72,2026-07-31,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-08-03T14:01:00.049634+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_cpi,0.2,2026-08-03,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-03T14:01:00.049634+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_pce,0.27,2026-08-03,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-03T14:01:00.049634+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,cpi,0.32,2026-08-03,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-03T14:01:00.049634+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,pce,0.33,2026-08-03,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-03T14:01:00.049634+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-08-03,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-03T14:01:00.049634+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-08-03,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-03T14:01:00.049634+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.09,2026-08-03,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-03T14:01:00.049634+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.19,2026-08-03,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-03T20:18:00.048674+00:00,fred,market_context,daily,2026-07-31,ten_year_treasury_yield,4.75,2026-07-31,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-08-03T20:20:00.048501+00:00,fred,market_context,daily,2026-07-31,two_year_treasury_yield,4.28,2026-07-31,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-08-03T20:21:00.048500+00:00,fred,market_context,daily,2026-07-31,broad_us_dollar_index,119.7034,2026-07-31,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTWEXBGS
+2026-08-03T21:06:00.049768+00:00,fred,market_context,daily,2026-08-03,ten_year_breakeven_inflation,2.27,2026-08-03,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-08-03T21:07:00.050183+00:00,fred,market_context,daily,2026-08-03,five_year_breakeven_inflation,2.23,2026-08-03,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-08-03T21:07:00.050183+00:00,fred,market_context,daily,2026-08-03,five_year_five_year_forward_inflation_expectation,2.31,2026-08-03,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-08-04T00:06:00.050132+00:00,fred,market_context,daily,2026-08-03,sp500_index,7600.5,2026-08-03,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-08-04T14:01:00.049340+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_cpi,0.2,2026-08-04,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-04T14:01:00.049340+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_pce,0.27,2026-08-04,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-04T14:01:00.049340+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,cpi,0.15,2026-08-04,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-04T14:01:00.049340+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,pce,0.23,2026-08-04,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-04T14:01:00.049340+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-08-04,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-04T14:01:00.049340+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-08-04,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-04T14:01:00.049340+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.09,2026-08-04,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-04T14:01:00.049340+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.19,2026-08-04,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-04T20:19:00.049915+00:00,fred,market_context,daily,2026-08-03,two_year_treasury_yield,4.25,2026-08-03,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-08-04T20:20:00.049484+00:00,fred,market_context,daily,2026-08-03,ten_year_treasury_yield,4.7,2026-08-03,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-08-04T21:07:00.049793+00:00,fred,market_context,daily,2026-08-04,five_year_breakeven_inflation,2.19,2026-08-04,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-08-04T21:07:00.049793+00:00,fred,market_context,daily,2026-08-04,five_year_five_year_forward_inflation_expectation,2.27,2026-08-04,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-08-04T21:07:00.049793+00:00,fred,market_context,daily,2026-08-04,ten_year_breakeven_inflation,2.23,2026-08-04,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-08-05T00:04:00.049695+00:00,fred,market_context,daily,2026-08-04,sp500_index,7736.52,2026-08-04,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-08-05T14:01:00.049745+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_cpi,0.2,2026-08-05,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-05T14:01:00.049745+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_pce,0.27,2026-08-05,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-05T14:01:00.049745+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,cpi,0.38,2026-08-05,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-05T14:01:00.049745+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,pce,0.36,2026-08-05,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-05T14:01:00.049745+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-08-05,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-05T14:01:00.049745+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-08-05,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-05T14:01:00.049745+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.09,2026-08-05,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-05T14:01:00.049745+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.19,2026-08-05,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-05T17:20:00.049845+00:00,fred,market_context,daily,2026-08-03,wti_crude_oil,81.96,2026-08-03,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILWTICO
+2026-08-05T20:18:00.049915+00:00,fred,market_context,daily,2026-08-04,two_year_treasury_yield,4.2,2026-08-04,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-08-05T20:20:00.050394+00:00,fred,market_context,daily,2026-08-04,ten_year_treasury_yield,4.63,2026-08-04,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-08-05T21:05:00.050188+00:00,fred,market_context,daily,2026-08-05,five_year_five_year_forward_inflation_expectation,2.26,2026-08-05,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-08-05T21:07:00.049954+00:00,fred,market_context,daily,2026-08-05,ten_year_breakeven_inflation,2.22,2026-08-05,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-08-05T21:08:00.051486+00:00,fred,market_context,daily,2026-08-05,five_year_breakeven_inflation,2.18,2026-08-05,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-08-06T00:04:00.049672+00:00,fred,market_context,daily,2026-08-05,sp500_index,7723.55,2026-08-05,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-08-06T12:35:00.049588+00:00,fred,market_context,daily,2026-08-01,initial_jobless_claims,199000.0,2026-08-01,https://fred.stlouisfed.org/graph/fredgraph.csv?id=ICSA
+2026-08-06T14:01:00.050605+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_cpi,0.2,2026-08-06,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-06T14:01:00.050605+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_pce,0.27,2026-08-06,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-06T14:01:00.050605+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,cpi,0.38,2026-08-06,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-06T14:01:00.050605+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,pce,0.36,2026-08-06,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-06T14:01:00.050605+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-08-06,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-06T14:01:00.050605+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-08-06,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-06T14:01:00.050605+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.09,2026-08-06,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-06T14:01:00.050605+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.19,2026-08-06,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-06T20:18:00.050298+00:00,fred,market_context,daily,2026-08-05,two_year_treasury_yield,4.18,2026-08-05,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-08-06T20:21:00.050371+00:00,fred,market_context,daily,2026-08-05,ten_year_treasury_yield,4.63,2026-08-05,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-08-06T21:05:00.048275+00:00,fred,market_context,daily,2026-08-06,five_year_breakeven_inflation,2.23,2026-08-06,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-08-06T21:06:00.048479+00:00,fred,market_context,daily,2026-08-06,ten_year_breakeven_inflation,2.26,2026-08-06,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-08-06T21:07:00.050696+00:00,fred,market_context,daily,2026-08-06,five_year_five_year_forward_inflation_expectation,2.29,2026-08-06,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-08-07T00:06:00.050453+00:00,fred,market_context,daily,2026-08-06,sp500_index,7709.96,2026-08-06,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-08-07T13:33:00.050192+00:00,fred,market_context,daily,2026-07-01,unemployment_rate,4.1,2026-07-01,https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE
+2026-08-07T13:35:00.051443+00:00,fred,market_context,daily,2026-07-01,average_hourly_earnings_total_private,37.62,2026-07-01,https://fred.stlouisfed.org/graph/fredgraph.csv?id=CES0500000003
+2026-08-07T13:36:00.050016+00:00,fred,market_context,daily,2026-07-01,nonfarm_payrolls,158858.0,2026-07-01,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PAYEMS
+2026-08-07T14:01:00.050365+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_cpi,0.2,2026-08-07,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-07T14:01:00.050365+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_pce,0.27,2026-08-07,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-07T14:01:00.050365+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,cpi,0.38,2026-08-07,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-07T14:01:00.050365+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,pce,0.36,2026-08-07,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-07T14:01:00.050365+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-08-07,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-07T14:01:00.050365+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-08-07,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-07T14:01:00.050365+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.09,2026-08-07,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-07T14:01:00.050365+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.19,2026-08-07,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-07T20:18:00.049687+00:00,fred,market_context,daily,2026-08-06,ten_year_treasury_yield,4.69,2026-08-06,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-08-07T20:19:00.050117+00:00,fred,market_context,daily,2026-08-06,two_year_treasury_yield,4.25,2026-08-06,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-08-07T21:05:00.050352+00:00,fred,market_context,daily,2026-08-07,five_year_breakeven_inflation,2.22,2026-08-07,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-08-07T21:06:00.050107+00:00,fred,market_context,daily,2026-08-07,ten_year_breakeven_inflation,2.25,2026-08-07,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-08-07T21:09:00.049976+00:00,fred,market_context,daily,2026-08-07,five_year_five_year_forward_inflation_expectation,2.28,2026-08-07,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-08-08T00:06:00.049773+00:00,fred,market_context,daily,2026-08-07,sp500_index,7757.64,2026-08-07,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-08-10T14:01:00.051868+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_cpi,0.2,2026-08-10,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-10T14:01:00.051868+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_pce,0.27,2026-08-10,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-10T14:01:00.051868+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,cpi,0.38,2026-08-10,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-10T14:01:00.051868+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,pce,0.36,2026-08-10,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-10T14:01:00.051868+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-08-10,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-10T14:01:00.051868+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-08-10,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-10T14:01:00.051868+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.09,2026-08-10,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-10T14:01:00.051868+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.19,2026-08-10,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-10T20:17:00.049770+00:00,fred,market_context,daily,2026-08-07,two_year_treasury_yield,4.19,2026-08-07,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-08-10T20:21:00.049290+00:00,fred,market_context,daily,2026-08-07,broad_us_dollar_index,119.0649,2026-08-07,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DTWEXBGS
+2026-08-10T20:21:00.049290+00:00,fred,market_context,daily,2026-08-07,ten_year_treasury_yield,4.65,2026-08-07,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-08-10T21:05:00.051169+00:00,fred,market_context,daily,2026-08-10,five_year_five_year_forward_inflation_expectation,2.33,2026-08-10,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-08-10T21:06:00.049213+00:00,fred,market_context,daily,2026-08-10,five_year_breakeven_inflation,2.25,2026-08-10,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-08-10T21:09:00.049433+00:00,fred,market_context,daily,2026-08-10,ten_year_breakeven_inflation,2.29,2026-08-10,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-08-11T00:10:38.862628+00:00,fred,market_context,daily,2026-08-10,sp500_index,7753.11,2026-08-10,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-08-11T14:01:00.050427+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_cpi,0.2,2026-08-11,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-11T14:01:00.050427+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_pce,0.27,2026-08-11,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-11T14:01:00.050427+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,cpi,0.35,2026-08-11,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-11T14:01:00.050427+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,pce,0.34,2026-08-11,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-11T14:01:00.050427+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_cpi,0.21,2026-08-11,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-11T14:01:00.050427+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,core_pce,0.27,2026-08-11,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-11T14:01:00.050427+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,cpi,0.09,2026-08-11,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-11T14:01:00.050427+00:00,cleveland_fed,inflation_nowcast,monthly_mom,July 2026,pce,0.19,2026-08-11,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-11T20:19:00.049236+00:00,fred,market_context,daily,2026-08-10,two_year_treasury_yield,4.25,2026-08-10,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-08-11T20:23:00.049305+00:00,fred,market_context,daily,2026-08-10,ten_year_treasury_yield,4.72,2026-08-10,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-08-11T21:06:00.049522+00:00,fred,market_context,daily,2026-08-11,five_year_breakeven_inflation,2.23,2026-08-11,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-08-11T21:07:00.049925+00:00,fred,market_context,daily,2026-08-11,five_year_five_year_forward_inflation_expectation,2.31,2026-08-11,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-08-11T21:08:00.049894+00:00,fred,market_context,daily,2026-08-11,ten_year_breakeven_inflation,2.27,2026-08-11,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-08-12T00:07:00.049450+00:00,fred,market_context,daily,2026-08-11,sp500_index,7728.2,2026-08-11,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-08-12T22:14:00.050293+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_cpi,0.2,2026-08-12,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-12T22:14:00.050293+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_pce,0.27,2026-08-12,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-12T22:14:00.050293+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,cpi,0.35,2026-08-12,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-12T22:14:00.050293+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,pce,0.34,2026-08-12,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-12T22:14:00.050293+00:00,fred,market_context,daily,2026-08-11,ten_year_treasury_yield,4.7,2026-08-11,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-08-12T22:14:00.050293+00:00,fred,market_context,daily,2026-08-11,two_year_treasury_yield,4.22,2026-08-11,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-08-12T22:14:00.050293+00:00,fred,market_context,daily,2026-08-11,wti_crude_oil,84.77,2026-08-11,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILWTICO
+2026-08-12T22:14:00.050293+00:00,fred,market_context,daily,2026-08-12,five_year_breakeven_inflation,2.24,2026-08-12,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-08-12T22:14:00.050293+00:00,fred,market_context,daily,2026-08-12,five_year_five_year_forward_inflation_expectation,2.28,2026-08-12,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-08-12T22:14:00.050293+00:00,fred,market_context,daily,2026-08-12,ten_year_breakeven_inflation,2.26,2026-08-12,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-08-13T00:07:00.050150+00:00,fred,market_context,daily,2026-08-12,sp500_index,7748.5,2026-08-12,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-08-13T12:35:00.048586+00:00,fred,market_context,daily,2026-08-08,initial_jobless_claims,209000.0,2026-08-08,https://fred.stlouisfed.org/graph/fredgraph.csv?id=ICSA
+2026-08-13T14:01:00.049737+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_cpi,0.2,2026-08-13,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-13T14:01:00.049737+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_pce,0.27,2026-08-13,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-13T14:01:00.049737+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,cpi,0.35,2026-08-13,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-13T14:01:00.049737+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,pce,0.34,2026-08-13,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-13T14:15:00.049882+00:00,fred,market_context,daily,2026-07-01,producer_price_index_all_commodities,284.057,2026-07-01,https://fred.stlouisfed.org/graph/fredgraph.csv?id=PPIACO
+2026-08-13T14:17:00.050103+00:00,fred,market_context,daily,2026-07-01,producer_price_index_final_demand_less_foods_energy,269.78,2026-07-01,https://fred.stlouisfed.org/graph/fredgraph.csv?id=WPSFD4131
+2026-08-13T20:19:00.051901+00:00,fred,market_context,daily,2026-08-12,ten_year_treasury_yield,4.68,2026-08-12,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-08-13T20:20:00.050051+00:00,fred,market_context,daily,2026-08-12,two_year_treasury_yield,4.2,2026-08-12,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-08-13T21:05:00.048471+00:00,fred,market_context,daily,2026-08-13,ten_year_breakeven_inflation,2.24,2026-08-13,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-08-13T21:07:00.048578+00:00,fred,market_context,daily,2026-08-13,five_year_five_year_forward_inflation_expectation,2.27,2026-08-13,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-08-13T21:08:00.048297+00:00,fred,market_context,daily,2026-08-13,five_year_breakeven_inflation,2.21,2026-08-13,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-08-14T00:08:00.049836+00:00,fred,market_context,daily,2026-08-13,sp500_index,7798.99,2026-08-13,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
+2026-08-14T13:19:00.049878+00:00,fred,market_context,daily,2026-07-01,retail_and_food_services_sales,763602.0,2026-07-01,https://fred.stlouisfed.org/graph/fredgraph.csv?id=RSAFS
+2026-08-14T14:01:00.050089+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_cpi,0.2,2026-08-14,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-14T14:01:00.050089+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_pce,0.27,2026-08-14,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-14T14:01:00.050089+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,cpi,0.35,2026-08-14,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-14T14:01:00.050089+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,pce,0.34,2026-08-14,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-14T20:19:00.049268+00:00,fred,market_context,daily,2026-08-13,ten_year_treasury_yield,4.63,2026-08-13,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-08-14T20:20:00.049872+00:00,fred,market_context,daily,2026-08-13,two_year_treasury_yield,4.15,2026-08-13,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-08-14T21:06:00.049745+00:00,fred,market_context,daily,2026-08-14,ten_year_breakeven_inflation,2.27,2026-08-14,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-08-14T21:08:00.049876+00:00,fred,market_context,daily,2026-08-14,five_year_breakeven_inflation,2.24,2026-08-14,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-08-14T21:09:00.049974+00:00,fred,market_context,daily,2026-08-14,five_year_five_year_forward_inflation_expectation,2.3,2026-08-14,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-08-15T00:13:00.049903+00:00,fred,market_context,daily,2026-08-14,sp500_index,7785.76,2026-08-14,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500

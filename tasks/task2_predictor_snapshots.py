@@ -4,6 +4,7 @@ import argparse
 import csv
 import hashlib
 import json
+import traceback
 from datetime import datetime, timezone
 from pathlib import Path
 from time import sleep
@@ -159,8 +160,22 @@ def main() -> None:
             if sleep_seconds > 0:
                 sleep(sleep_seconds)
 
-        row_count = collect_once(args)
-        print(f"{datetime.now(timezone.utc).isoformat()} appended {row_count} changed rows")
+        try:
+            row_count = collect_once(args)
+            print(
+                f"{datetime.now(timezone.utc).isoformat()} appended {row_count} changed rows",
+                flush=True,
+            )
+        except Exception:
+            print(
+                f"{datetime.now(timezone.utc).isoformat()} collection failed; "
+                "retrying on the next cycle",
+                flush=True,
+            )
+            traceback.print_exc()
+            if args.once:
+                raise
+            continue
 
         if args.once:
             return

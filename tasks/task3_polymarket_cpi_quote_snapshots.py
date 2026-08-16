@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import re
+import traceback
 from datetime import datetime, timezone
 from time import sleep
 
@@ -210,11 +211,23 @@ def main() -> None:
             if sleep_seconds > 0:
                 sleep(sleep_seconds)
 
-        row_count, event_count = collect_once(args)
-        print(
-            f"{datetime.now(timezone.utc).isoformat()} appended {row_count} rows "
-            f"from {event_count} matching Polymarket events"
-        )
+        try:
+            row_count, event_count = collect_once(args)
+            print(
+                f"{datetime.now(timezone.utc).isoformat()} appended {row_count} rows "
+                f"from {event_count} matching Polymarket events",
+                flush=True,
+            )
+        except Exception:
+            print(
+                f"{datetime.now(timezone.utc).isoformat()} collection failed; "
+                "retrying on the next cycle",
+                flush=True,
+            )
+            traceback.print_exc()
+            if args.once:
+                raise
+            continue
 
         if args.once:
             return
