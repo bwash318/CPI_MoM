@@ -1,5 +1,5 @@
 {
-  "cleveland_fed|inflation_nowcast|monthly_mom|August 2026": "86e2dd3eac07214207620bdc4b9fca803487484582abaddf9c5ee312bb59c7db",
+  "cleveland_fed|inflation_nowcast|monthly_mom|August 2026": "f9d0e7c0555cccad5ebea9fde6a9e0a4e370cbd888a8540fb30a2f9262fc91b2",
   "cleveland_fed|inflation_nowcast|monthly_mom|July 2026": "c749d516a1df702a1ff50e9a3112aa84cef4f9a8141396279a3e7c2ef85d47d8",
   "cleveland_fed|inflation_nowcast|monthly_mom|June 2026": "feaa99cc0cad41ba17573c7cff64948076c4ee4f3c94d4ddff762277481b331e",
   "fred|market_context|daily|2026-05-01|producer_price_index_all_commodities": "700a7fdef7b07752f7af190cfadc1905bfb022a0c167c8c7d38bd34fffc93ea5",
@@ -205,5 +205,11 @@
   "fred|market_context|daily|2026-08-17|five_year_breakeven_inflation": "bb318956b5d37334c2c3fba5816c8eec49874d14513328ffd537dabda620754a",
   "fred|market_context|daily|2026-08-17|five_year_five_year_forward_inflation_expectation": "327d2bfdba8ab09b52ac50436c7eea0c199cf8d17f48574c8bc25dfdedd0700a",
   "fred|market_context|daily|2026-08-17|sp500_index": "46dc8b65ce2711d1c861cf05786a0af2489dd244bd7c1ebc604149ed2e0591a7",
-  "fred|market_context|daily|2026-08-17|ten_year_breakeven_inflation": "d31646c3220f934caaecdd10ee20511160faa07801cb8057c8dd2b7c08cf667d"
+  "fred|market_context|daily|2026-08-17|ten_year_breakeven_inflation": "d31646c3220f934caaecdd10ee20511160faa07801cb8057c8dd2b7c08cf667d",
+  "fred|market_context|daily|2026-08-17|ten_year_treasury_yield": "e3069b3117b8e1a5b797b170bc7d3ec5647f3370528cc4154bb693e22711032f",
+  "fred|market_context|daily|2026-08-17|two_year_treasury_yield": "17a64373ea0e2475d6abac7413f56a3880c309443c6a2f09cff781c83d94125a",
+  "fred|market_context|daily|2026-08-18|five_year_breakeven_inflation": "0ba7d7e4635194f1605262af117c00c3f1c70078f32e88a3c9261aa9da4ee166",
+  "fred|market_context|daily|2026-08-18|five_year_five_year_forward_inflation_expectation": "225447a74e6cd0523ca414871e16f30e5ef8af691dff60f07a3349d6034cdcf5",
+  "fred|market_context|daily|2026-08-18|sp500_index": "ba7fa1a12a43b9765a45a70a51a1e018fe8e10ebe6806836dc7d003841d13751",
+  "fred|market_context|daily|2026-08-18|ten_year_breakeven_inflation": "131681969d1330c6e26dcdd65959b4aa40a584c068ada4891d0d04e322f7f5a4"
 }
