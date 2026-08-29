@@ -385,3 +385,13 @@ scrape_time_utc,source,predictor_family,frequency,period,measure,value,source_up
 2026-08-19T21:09:00.049836+00:00,fred,market_context,daily,2026-08-19,ten_year_breakeven_inflation,2.3,2026-08-19,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
 2026-08-20T00:05:00.049947+00:00,fred,market_context,daily,2026-08-19,sp500_index,7707.98,2026-08-19,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
 2026-08-20T12:38:00.048765+00:00,fred,market_context,daily,2026-08-15,initial_jobless_claims,206000.0,2026-08-15,https://fred.stlouisfed.org/graph/fredgraph.csv?id=ICSA
+2026-08-20T14:01:00.050493+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_cpi,0.2,2026-08-20,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-20T14:01:00.050493+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,core_pce,0.27,2026-08-20,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-20T14:01:00.050493+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,cpi,0.35,2026-08-20,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-20T14:01:00.050493+00:00,cleveland_fed,inflation_nowcast,monthly_mom,August 2026,pce,0.34,2026-08-20,https://www.clevelandfed.org/indicators-and-data/inflation-nowcasting
+2026-08-20T20:18:00.049769+00:00,fred,market_context,daily,2026-08-19,two_year_treasury_yield,4.19,2026-08-19,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2
+2026-08-20T20:21:00.050161+00:00,fred,market_context,daily,2026-08-19,ten_year_treasury_yield,4.65,2026-08-19,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10
+2026-08-20T21:07:00.049833+00:00,fred,market_context,daily,2026-08-20,five_year_breakeven_inflation,2.34,2026-08-20,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIE
+2026-08-20T21:07:00.049833+00:00,fred,market_context,daily,2026-08-20,five_year_five_year_forward_inflation_expectation,2.34,2026-08-20,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T5YIFR
+2026-08-20T21:07:00.049833+00:00,fred,market_context,daily,2026-08-20,ten_year_breakeven_inflation,2.34,2026-08-20,https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE
+2026-08-21T00:05:00.050033+00:00,fred,market_context,daily,2026-08-20,sp500_index,7641.16,2026-08-20,https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500
